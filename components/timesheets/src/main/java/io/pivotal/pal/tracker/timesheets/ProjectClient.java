@@ -1,9 +1,10 @@
 package io.pivotal.pal.tracker.timesheets;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.web.client.RestOperations;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.client.RestOperations;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

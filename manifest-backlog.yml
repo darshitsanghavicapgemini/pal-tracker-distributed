@@ -1,11 +1,10 @@
 applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
-  host: backlog-pal-ds
+  host: backlog-pal-INITIALS
   memory: 1G
   instances: 1
   env:
-    TRTRUST_CERTS: apps.longs.pal.pivotal.io
     GRANT_TYPE: client_credentials
     SECURITY_USER_NAME: actuator
     SECURITY_USER_PASSWORD: operations4red
